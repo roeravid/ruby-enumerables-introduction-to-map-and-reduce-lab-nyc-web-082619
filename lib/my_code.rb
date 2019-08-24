@@ -45,7 +45,6 @@ def map_to_negativize(source_array)
       total += source_array[counter]
       counter +=1
     end
-    total += starting_point
     total
   end
 
