@@ -62,7 +62,7 @@ def map_to_negativize(source_array)
   def reduce_to_any_true(source_array)
     counter = 0
     while counter < source_array.length do
-      if source_array[counter] == true
+      if source_array[counter] == true do
         return true
       else counter += 1
       end
