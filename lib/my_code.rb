@@ -64,5 +64,5 @@ def map_to_negativize(source_array)
     return true if source_array[counter] == true
     counter += 1
       end
-    return false
+    return true
     end
