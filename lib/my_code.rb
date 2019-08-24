@@ -65,4 +65,3 @@ def map_to_negativize(source_array)
     counter += 1
       end
     end
-  end
