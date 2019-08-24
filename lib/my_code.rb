@@ -41,10 +41,13 @@ def map_to_negativize(source_array)
   def reduce_to_total(source_array, starting_point)
     reduce_to_total = []
     counter = 0
+    total = 0
     while counter < source_array.length do
-      reduce_to_total += source_array[counter]
+      total += source_array[counter]
+      counter +=1
     end
-    counter +=1
+    total += starting_point
+    total
   end
 
   def reduce_to_all_true(source_array)
