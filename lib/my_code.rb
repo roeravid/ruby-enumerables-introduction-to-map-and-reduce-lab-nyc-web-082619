@@ -38,17 +38,16 @@ def map_to_negativize(source_array)
   squared
  end
 
-  def reduce_to_total(source_array, starting_point)
-    #reductionToTotal = []
+  def reduce_to_total(source_array, starting_point=0)
     counter = 0
     total = 0
     while counter < source_array.length do
       total += source_array[counter]
       counter +=1
     end
-    if starting_point = true
-      total += starting_point
-    end
+    # if starting_point = true
+    #   total += starting_point
+    # end
     total
   end
 
