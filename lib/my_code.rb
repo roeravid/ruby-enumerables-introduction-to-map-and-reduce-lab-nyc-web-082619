@@ -40,12 +40,11 @@ def map_to_negativize(source_array)
 
   def reduce_to_total(source_array, starting_point)
     counter = 0
-    total = 0
+    total = starting_point
     while counter < source_array.length do
       total += source_array[counter]
       counter +=1
     end
-    total += starting_point
     total
   end
 
